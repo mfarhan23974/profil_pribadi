@@ -14,11 +14,11 @@ class ProfileWidget extends StatelessWidget {
         const CircleAvatar(
           radius: 60,
           // FIX ASSET PATH: Menggunakan path yang sudah diperbaiki
-          backgroundImage: AssetImage("assets/image/farhan.jpg"),
+          backgroundImage: AssetImage("assets/image/dwi.jpeg"),
         ),
         const SizedBox(height: 20),
         const Text(
-          "Muhammad Farhan Chablullah",
+          "Dwi Astina",
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         const Text(
@@ -46,7 +46,7 @@ class ProfileWidget extends StatelessWidget {
           children: const [
             Icon(Icons.email, size: 20, color: Colors.blue),
             SizedBox(width: 8),
-            Text("muhammadfarhanchablullah@gmail.com"),
+            Text("dwi123astina@gmail.com"),
           ],
         ),
       ],

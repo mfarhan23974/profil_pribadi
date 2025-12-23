@@ -23,7 +23,7 @@ class ProfileDetailScreen extends StatelessWidget {
               child: CircleAvatar(
                 radius: 80,
                 // FIX ASSET PATH: Menggunakan path yang benar
-                backgroundImage: const AssetImage("assets/image/farhan.jpg"),
+                backgroundImage: const AssetImage("assets/image/dwi.jpeg"),
               ),
             ),
 
@@ -31,7 +31,7 @@ class ProfileDetailScreen extends StatelessWidget {
 
             // Nama & Judul
             Text(
-              'Muhammad Farhan Chablullah',
+              'Dwi Astina',
               style: Theme.of(context)
                   .textTheme
                   .headlineLarge
@@ -68,8 +68,8 @@ class ProfileDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             _buildDetailRow(
-                Icons.email, 'muhammadfarhanchablullah@gmail.com', context),
-            _buildDetailRow(Icons.phone, '+62 822-9920-2193', context),
+                Icons.email, 'dwi123astina@gmail.com', context),
+            _buildDetailRow(Icons.phone, '+62 823-7990-6233', context),
           ],
         ),
       ),
